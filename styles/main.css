@@ -1,0 +1,60 @@
+.main{
+    background-image: url(../img/Rectangle\ 2.png);
+    max-width: 1920px;
+    height: 800px;
+}
+.header {
+    background-color: rgba(0, 91, 193, 0.6);
+    display: flex;
+}
+
+.logo__link {
+    display: flex;
+}
+
+.logo {
+    padding: 11px 0px;
+    max-width: 9%;
+    margin-right: 22%;
+}
+
+.logo__text {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    text-align: center;
+    letter-spacing: 0.03em;
+    /* white */
+    color: #FFFFFF;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-self: center;
+}
+
+.nav__item {
+    list-style: none;
+    transition: 0.5s;
+}
+
+.nav__link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    /* white */
+    color: #FFFFFF;
+}
+
+.nav__item:hover {
+    transform: scale(1.25);
+    font-weight: bold;
+}
