@@ -1,7 +1,8 @@
-.header {
+.containerOne {
     background-image: url(../img/Rectangle\ 2.png);
     max-width: 1920px;
     height: 800px;
+    margin-bottom: 150px;
 }
 
 .header-nav {
@@ -103,7 +104,6 @@
 }
 
 .btn {
-    box-sizing: border-box;
     padding: 10px 50px;
     border: 2px solid #FFFFFF;
     background-color: rgba(0, 0, 0, 0);

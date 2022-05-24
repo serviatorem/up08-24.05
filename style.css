@@ -1,9 +1,110 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald&family=Titillium+Web:wght@600&display=swap');
 @import url(styles/main.css);
-a{
+
+a {
     text-decoration: none;
 }
-*{
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.project{
+    margin-bottom: 150px;
+}
+.projects__title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__left {
+    width: 344px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.project-title {
+    /* h2 */
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* black */
+
+    color: #343434;
+}
+
+.projects__btn {
+    padding: 20px 25px;
+    border: 2px solid #005BC1;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.projects__btn:hover {
+    cursor: pointer;
+}
+
+.cards {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+}
+
+.card__images {
+    max-width: 540px;
+}
+
+.card__texts {
+    z-index: 1;
+    left: 255px;
+    top: 255px;
+    position: absolute;
+    max-width: 250px;
+    background-color: #fff;
+    padding: 20px 25px;
+}
+
+.card__title {
+    /* h4 */
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* black */
+
+    color: #343434;
+}
+
+.card__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* black */
+
+    color: #343434;
 }
