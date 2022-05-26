@@ -58,11 +58,6 @@ a {
 .projects__btn:hover {
     cursor: pointer;
 }
-
-.btn__one {
-    transform: rotate(180deg);
-}
-
 .cards {
     margin-top: 65px;
     display: flex;
