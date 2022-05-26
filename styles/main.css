@@ -1,14 +1,22 @@
+.bgimage{
+    background-image: url(../img/Rectangle\ 2.png);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .containerOne {
     margin: 0 auto;
-    background-image: url(../img/Rectangle\ 2.png);
-    max-width: 1920px;
     height: 800px;
     margin-bottom: 150px;
 }
 
 .header-nav {
+    position: relative;
     background-color: rgba(0, 91, 193, 0.6);
     display: flex;
+    justify-content: center;
+    height: 80px;
 }
 
 .logo__link {
@@ -16,9 +24,10 @@
 }
 
 .logo {
+    left: 10px;
     padding: 11px 0px;
-    max-width: 9%;
-    margin-right: 28.5%;
+    max-width: 9vw;
+    position: absolute;
 }
 
 .logo__text {
@@ -35,10 +44,11 @@
 }
 
 .nav {
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    width: 30%;
+    max-width: 500px;
     align-self: center;
+    gap: 28px;
 }
 
 .nav__item {
@@ -64,26 +74,23 @@
 
 
 .header__wrapper{
-    max-width: 736px;
+    display: flex;
+    max-width: 783px;
     margin: 0 auto;
 }
 .main__bg {
-    position: relative;
-    margin-left: -21%;
-    width: 444px;
+    margin-left: -25%;
+    width: 544px;
     height: 720px;
     background-color: rgba(0, 91, 193, 0.6);
 }
 
 .main__content {
-    position: absolute;
-    z-index: 1;
-    left: 580px;
-    top: 280px;
+    margin-top: 200px;
+    margin-left: -30%;
 }
 
 .header__title {
-    width: 75%;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -100,7 +107,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
-    width: 60%;
     color: #FFFFFF;
     margin-bottom: 40px;
 }
@@ -128,4 +134,16 @@
     letter-spacing: 0.05em;
 
     color: #FFFFFF;
+}
+@media (max-width:1500px){
+    .main__bg{
+        margin-left: -12.5%;
+        width: 444px;
+    }
+}
+@media (max-width:1320px){
+    .main__bg{
+        margin-left: -2%;
+        width: 344px;
+    }
 }
