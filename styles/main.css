@@ -1,4 +1,5 @@
 .containerOne {
+    margin: 0 auto;
     background-image: url(../img/Rectangle\ 2.png);
     max-width: 1920px;
     height: 800px;
@@ -61,13 +62,14 @@
     font-weight: bold;
 }
 
-.header__main {
-    max-width: 43%;
-    margin-left: 405px;
-}
 
+.header__wrapper{
+    max-width: 736px;
+    margin: 0 auto;
+}
 .main__bg {
     position: relative;
+    margin-left: -21%;
     width: 444px;
     height: 720px;
     background-color: rgba(0, 91, 193, 0.6);
@@ -76,7 +78,7 @@
 .main__content {
     position: absolute;
     z-index: 1;
-    left: 595px;
+    left: 460px;
     top: 282px;
 }
 

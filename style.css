@@ -58,6 +58,7 @@ a {
 .projects__btn:hover {
     cursor: pointer;
 }
+
 .cards {
     margin-top: 65px;
     display: flex;
@@ -269,13 +270,17 @@ a {
     display: flex;
     margin-top: 30px;
 }
-
-.equip__img {
+.equip__wrapper{
     width: 255px;
+}
+.equip__img {
+    object-fit: contain;
+    width: 100%;
     margin-right: 30px;
 }
 
 .equip__title {
+    margin-left: 10px;
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
@@ -290,9 +295,12 @@ a {
 
     color: #343434;
 }
-.equip__list{
+
+.equip__list {
     margin-top: 30px;
+    margin-left: 30px;
 }
+
 .equip__item {
     /* p.small-text */
     font-family: 'Open Sans';
@@ -303,4 +311,40 @@ a {
     /* black */
     color: #343434;
     margin-bottom: 20px;
+}
+.news__title{
+    margin-bottom: 77px;
+}
+.news__left {
+    width: 250px;
+}
+
+.news__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 51px;
+    border: none;
+    background: #005BC1;
+    transition: all 0.5s ease;
+}
+
+.news__text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.news__btn:hover{
+    background: #FFFFFF;
+    color: #005BC1;
+    border: 2px solid #005BC1;
 }
