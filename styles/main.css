@@ -107,9 +107,12 @@
     padding: 10px 50px;
     border: 2px solid #FFFFFF;
     background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease;
 }
 .btn:hover{
     cursor: pointer;
+    background-color: #fff;
+    color: #005BC1;
 }
 .btn__text {
     font-family: 'Open Sans';
